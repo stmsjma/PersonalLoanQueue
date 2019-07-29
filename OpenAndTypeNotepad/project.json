@@ -1,0 +1,37 @@
+{
+  "name": "OpenAndTypeNotepad",
+  "description": "OpenAndTypeNotepad",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "18.3.6877.28276",
+    "UiPath.UIAutomation.Activities": "18.3.6877.28298"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.7149.28029",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
